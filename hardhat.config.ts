@@ -33,7 +33,6 @@ const config: HardhatUserConfig = {
       forking: {
         url: "https://mainnet.infura.io/v3/a801e7fc09604a21b16e44770313792b",
         blockNumber: 12923627,
-        
       },
       accounts: { mnemonic: "SEED PHRASE HERE" }
     },
@@ -42,7 +41,6 @@ const config: HardhatUserConfig = {
       accounts: {
         mnemonic: "SEED PHRASE HERE"
       },
-       
     }
   }
 };
